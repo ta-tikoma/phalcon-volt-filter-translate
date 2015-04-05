@@ -1,7 +1,7 @@
 #phalcon-volt-translate
 
 ##Preparation
-+ Add to app/config.php:
+**Add to app/config.php:**
 ```php
 <?php
 
@@ -14,8 +14,8 @@ return new \Phalcon\Config(array(
     )
 ));
 ```
-+ Add to app/services.php
-..+ Add translate service (for example, I set only one file for translate, you can add switch):
+**Add to app/services.php**
++ Add translate service (for example, I set only one file for translate, you can add switch):
 ```php
 ...
 /**
@@ -30,7 +30,7 @@ $di->set('translate', function() use ($config) {
 });
 ...
 ```
-..+ Add translate filter for volt [in file](https://github.com/ta-tikoma/phalcon-volt-translate/blob/master/app/config/services.php#L57):
++ Add translate filter for volt [in file](https://github.com/ta-tikoma/phalcon-volt-translate/blob/master/app/config/services.php#L57):
 ```php
 ...
 $volt->getCompiler()->addFilter('t', function($resolvedArgs, $exprArgs) use ($di) {
