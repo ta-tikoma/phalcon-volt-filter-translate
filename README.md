@@ -1,5 +1,5 @@
-#phalcon-volt-translate
-
+#phalcon-volt-filter-translate
+[![Phalconist](http://phalconist.com/ta-tikoma/phalcon-volt-filter-translate/default.svg)](http://phalconist.com/ta-tikoma/phalcon-volt-filter-translate)
 ##Preparation
 **Add to app/config.php:**
 ```php
